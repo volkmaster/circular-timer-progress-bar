@@ -1,10 +1,14 @@
 # Timer Progress
-Circular timer progress bar based on SVG. Implemented using native JavaScript. All web browsers are supported.
+Circular timer progress bar based on SVG. Implemented using native JavaScript. All web browsers are supported. A small demo of the functionality is included in the project (```demo.js``` and ```index.html``` files).
 
 ## Instructions
 To use the functionality put ```<script src="timer-progress.js"></script>``` inside the ```<head>``` tag in your HTML file.
 
-You can use the timer by creating a TimerProgress object (with [options](#options) parameter) and calling [run](#run) function. Every options object needs to contain a 'container' parameter representing an SVG object, which functions as a placeholder for other SVG elements (its width and height need to be set).
+You can use the timer by creating a TimerProgress object (with [options](#options) parameter) and calling [run](#run) function. 
+
+Every options object needs to contain a 'container' parameter representing an SVG object, which functions as a placeholder for other SVG elements (its width and height need to be set):
+
+```<svg id="container" width="500" height="500"></svg>```
 
 An example of a timer that runs infinitely ([more](#run)).
 ```
