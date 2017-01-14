@@ -78,9 +78,9 @@ TimerProgress.prototype.describeArc = function (x, y, r, startAngle, endAngle) {
 
 /**
  * Runs the timer progress.
- * @param {number|string} time      number of milliseconds defining the timer duration (if 'inf', then the timer will be executed for indefinite duration)
- * @param {boolean} displayText     flag indicating whether the text in the middle of the circle representing time left (in seconds) should be displayed (defaults to true)
- * @param {number} nDecimals        number of decimals of the time left (defaults to 0)
+ * @param {number|string} time      number of milliseconds defining the timer duration (if 'inf', then the timer will be executed for indefinite duration; compulsory)
+ * @param {boolean} displayText     flag indicating whether the text in the middle of the circle representing the time left (in seconds) is displayed (optional; default: true)
+ * @param {number} nDecimals        number of decimals of the text representing the time left (optional; default: 0)
  */
 TimerProgress.prototype.run = function (time, displayText, nDecimals) {
     var inf = time === 'inf';
