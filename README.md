@@ -1,2 +1,2 @@
-# timer_progress
-Circular Timer Progress Bar
+# Timer Progress
+Circular timer progress bar based on SVG. Implemented using native JavaScript. All web browsers are supported.
