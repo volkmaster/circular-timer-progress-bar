@@ -1,4 +1,9 @@
 /**
+ * @file        SVG-based native JS circular timer progress bar.
+ * @author      Ziga Vucko 2017
+ */
+
+/**
  * Creates an SVG-based circular timer progress bar, which functions like an actual timer.
  * @param {!Object.<string, any>} options   an object containing attributes of timer progress bar:
  *                                              'container': an SVG object, which functions as a placeholder for other SVG elements with dimensions already set (obligatory),
