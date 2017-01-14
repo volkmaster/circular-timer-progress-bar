@@ -20,7 +20,7 @@ var timer = new TimerProgress({
 })
 timer.run(5000, true, 1);
 ```
-An example of a timer that runs for 10 seconds and without any text in the middle of the circle ([more](#run)) with additional options specified ([more](#options)).
+An example of a timer that runs for 10 seconds without any text in the middle of the circle ([more](#run)) with additional options specified ([more](#options)).
 ```
 var timer = new TimerProgress({
     'container': document.getElementById('container'),
@@ -57,7 +57,7 @@ The **options** object passed to the TimerProgress class constructor may contain
 * _font-family_: font familiy of the text font (optional; default: sans-serif)
 
 ### <a name="run">Run</a>
-The **run** function of to the TimerProgress class may containin the following attributes:
+The **run** function of the TimerProgress class may containin the following attributes:
 * _time_: number of milliseconds defining the timer duration (if 'inf', then the timer will be executed for indefinite duration; compulsory)
 * _displayText_: flag indicating whether the text in the middle of the circle representing time left (in seconds) is displayed (optional; default: true)
 * _nDecimals_: number of decimals of the text representing the time left (optional; default: 0)
