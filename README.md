@@ -8,23 +8,25 @@ You can use the timer by creating a TimerProgress object (with [options](#option
 
 Every options object needs to contain a 'container' parameter representing an SVG object, which functions as a placeholder for other SVG elements (its width and height need to be set):
 
-```<svg id="container" width="500" height="500"></svg>```
+```
+<svg id="container" width="500" height="500"></svg>
+```
 
-An example of a timer that runs infinitely ([more](#run)).
+An example of a timer that runs infinitely ([more](#run)):
 ```
 var timer = new TimerProgress({
     'container': document.getElementById('container')
 });
 timer.run('inf');
 ```
-An example of a timer that runs for 5 seconds and displays the number of seconds left (with 1 decimal place) in the middle of the circle ([more](#run)).
+An example of a timer that runs for 5 seconds and displays the number of seconds left (with 1 decimal place) in the middle of the circle ([more](#run)):
 ```
 var timer = new TimerProgress({
     'container': document.getElementById('container')
 })
 timer.run(5000, true, 1);
 ```
-An example of a timer that runs for 10 seconds without any text in the middle of the circle ([more](#run)) with additional options specified ([more](#options)).
+An example of a timer that runs for 10 seconds without any text in the middle of the circle ([more](#run)) with additional options specified ([more](#options)):
 ```
 var timer = new TimerProgress({
     'container': document.getElementById('container'),
@@ -36,7 +38,7 @@ var timer = new TimerProgress({
 })
 timer.run(10000, false);
 ```
-An example of a timer that runs for 6 seconds and displays the number of seconds left (with 2 decimal places) in the middle of the circle ([more](#run)) with additional options specified ([more](#options)).
+An example of a timer that runs for 6 seconds and displays the number of seconds left (with 2 decimal places) in the middle of the circle ([more](#run)) with additional options specified ([more](#options)):
 ```
 var timer = new TimerProgress({
     'container': document.getElementById('container'),
