@@ -5,7 +5,7 @@ Circular timer progress bar based on SVG. Implemented using native JavaScript. T
 To use the timer progress bar put ```<script src="timer-progress.min.js"></script>``` inside the ```<head>``` tag of your HTML file. The file is located in the ```dist``` directory.
 
 ### Demo
-A demo of the functionality is included in the project (```demo.js```, ```demo.css``` and ```index.html``` files). To view the demo run ```index.html```.
+A demo of the functionality is included in the project. To view the demo run ```demo/demo.html```.
 
 ## Usage
 You can use the timer by creating a TimerProgress object and calling ```run``` function to start the execution. See [functions](#functions) for additional information.
