@@ -47,13 +47,18 @@ function TimerProgress (options, nDecimals = 0, displayText = true, displayCircl
     })
     this.container.appendChild(this.path)
 
+    var isIE = false || !!document.documentMode
+    var isEdge = !isIE && !!window.StyleMedia
+
     this.fontSize = options['font-size'] || 0
     this.colorText = options['color-text'] || 'black'
     this.text = new SVGElement('text', {
-        'fill'              : this.colorText,
-        'text-anchor'       : 'middle',
-        'dominant-baseline' : 'middle',
-        'font-family'       : options['font-family'] || 'sans-serif'
+        'fill'               : this.colorText,
+        'text-anchor'        : 'middle',
+        'alignment-baseline' : 'middle',
+        'dominant-baseline'  : 'middle',
+        'dy'                 : (isEdge ? 0.6 : 0) + 'ex',
+        'font-family'        : options['font-family'] || 'sans-serif'
     })
     this.container.appendChild(this.text)
     this.colorAlert = options['color-alert'] || 'red'

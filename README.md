@@ -1,5 +1,5 @@
 # Timer Progress
-Circular timer progress bar based on SVG. Implemented using native JavaScript. All web browsers are supported.
+Circular timer progress bar based on SVG. Implemented using native JavaScript. Tested in Google Chrome, Mozilla Firefox, Safari, Microsoft Edge and Opera.
 
 ## Installation
 To use the timer progress bar put ```<script src="timer-progress.min.js"></script>``` inside the ```<head>``` tag of your HTML file. The file is located in the ```dist``` directory.
