@@ -62,7 +62,7 @@ timer.run(8000);
 
 ```javascript
 var timer = new TimerProgress({
-    'container'        : document.getElementById('container4'),
+    'container'        : document.getElementById('container'),
     'width-container'  : 150,
     'height-container' : 150,
     'color-container'  : '#c0c0c0',
