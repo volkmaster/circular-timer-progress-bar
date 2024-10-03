@@ -160,7 +160,7 @@ const timer = new CircularTimerProgressBar(
 timer.run(7000)
 ```
 
-### <a name="documentation">Documentation</a>
+## <a name="documentation">Documentation</a>
 
 The **constructor** of the `CircularTimerProgressBar` class initializes the timer.
 
