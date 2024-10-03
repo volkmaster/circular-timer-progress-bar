@@ -2,6 +2,8 @@
 
 > An example using `circular-timer-progress-bar` package in React.
 
+Check out a live demo here: https://volkmaster.github.io/circular-timer-progress-bar/
+
 ## Installation
 
 The example is linked to the `circular-timer-progress-bar` package in the parent directory for development purposes.
