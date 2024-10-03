@@ -228,3 +228,7 @@ The **`isPaused`** function of the `CircularTimerProgressBar` class tells whethe
 ```javascript
 isPaused()
 ```
+
+## License
+
+MIT © [volkmaster](https://github.com/volkmaster)
