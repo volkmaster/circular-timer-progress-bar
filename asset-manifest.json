@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "./static/css/main.84a6744d.css",
+    "main.js": "./static/js/main.7b2a33cc.js",
+    "static/media/GothamRounded-Book.svg": "./static/media/GothamRounded-Book.3a869a6be23dfff8b4a5.svg",
+    "static/media/GothamRounded-Bold.svg": "./static/media/GothamRounded-Bold.322ce2da6ebc6294da29.svg",
+    "static/media/GothamRounded-Light.svg": "./static/media/GothamRounded-Light.1460947674e4a3427e3f.svg",
+    "static/media/GothamRounded-Book.eot": "./static/media/GothamRounded-Book.86e36550cbba9a983787.eot",
+    "static/media/GothamRounded-Book.ttf": "./static/media/GothamRounded-Book.2b1748f75c10c035890d.ttf",
+    "static/media/GothamRounded-Light.eot": "./static/media/GothamRounded-Light.b14b89a002d4f3ac6c9b.eot",
+    "static/media/GothamRounded-Bold.eot": "./static/media/GothamRounded-Bold.b51bafae9e975e4800dd.eot",
+    "static/media/GothamRounded-Light.ttf": "./static/media/GothamRounded-Light.2dbd8291d598d6b86952.ttf",
+    "static/media/GothamRounded-Bold.ttf": "./static/media/GothamRounded-Bold.58a5a76506723f34c1e5.ttf",
+    "static/media/GothamRounded-Book.woff": "./static/media/GothamRounded-Book.79d0dca978c69257fc38.woff",
+    "static/media/GothamRounded-Bold.woff": "./static/media/GothamRounded-Bold.28cc5f3cd04142de266c.woff",
+    "static/media/GothamRounded-Light.woff": "./static/media/GothamRounded-Light.e6e60ea7ad983a6cd8b2.woff",
+    "static/media/GothamRounded-Book.woff2": "./static/media/GothamRounded-Book.007a7d17138b9547484b.woff2",
+    "static/media/GothamRounded-Bold.woff2": "./static/media/GothamRounded-Bold.148ed991a3e50da50279.woff2",
+    "static/media/GothamRounded-Light.woff2": "./static/media/GothamRounded-Light.3af11d7b9107f4d44f08.woff2",
+    "index.html": "./index.html",
+    "main.84a6744d.css.map": "./static/css/main.84a6744d.css.map",
+    "main.7b2a33cc.js.map": "./static/js/main.7b2a33cc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.84a6744d.css",
+    "static/js/main.7b2a33cc.js"
+  ]
+}
