@@ -1,5 +1,5 @@
 declare module "circular-timer-progress-bar" {
-  interface TimerProgressOptions {
+  interface CircularTimerProgressBarOptions {
     container: SVGElement
     widthContainer?: number
     heightContainer?: number
@@ -15,7 +15,7 @@ declare module "circular-timer-progress-bar" {
 
   class CircularTimerProgressBar {
     constructor(
-      options: TimerProgressOptions,
+      options: CircularTimerProgressBarOptions,
       nDecimals?: number,
       displayText?: boolean,
       displayCircle?: boolean,
