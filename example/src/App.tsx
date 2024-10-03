@@ -3,21 +3,21 @@ import styled from "styled-components"
 import CircularTimerProgressBar from "circular-timer-progress-bar"
 
 const App = () => {
-  const progress1 = useRef(null)
-  const progress2 = useRef(null)
-  const progress3 = useRef(null)
-  const progress4 = useRef(null)
-  const progress5 = useRef(null)
+  const progressBarRef1 = useRef(null)
+  const progressBarRef2 = useRef(null)
+  const progressBarRef3 = useRef(null)
+  const progressBarRef4 = useRef(null)
+  const progressBarRef5 = useRef(null)
 
   useEffect(() => {
-    if (progress1.current) {
-      new CircularTimerProgressBar({ container: progress1.current }).run("inf")
+    if (progressBarRef1.current) {
+      new CircularTimerProgressBar({ container: progressBarRef1.current }).run("inf")
     }
 
-    if (progress2.current) {
+    if (progressBarRef2.current) {
       new CircularTimerProgressBar(
         {
-          container: progress2.current,
+          container: progressBarRef2.current,
           widthContainer: 200,
           heightContainer: 200,
           fontFamily: "GothamRounded-Bold",
@@ -26,10 +26,10 @@ const App = () => {
       ).run(5000, 2000)
     }
 
-    if (progress3.current) {
+    if (progressBarRef3.current) {
       new CircularTimerProgressBar(
         {
-          container: progress3.current,
+          container: progressBarRef3.current,
           widthContainer: 250,
           heightContainer: 350,
           strokeWidth: 25,
@@ -42,10 +42,10 @@ const App = () => {
       ).run(8000)
     }
 
-    if (progress4.current) {
+    if (progressBarRef4.current) {
       new CircularTimerProgressBar(
         {
-          container: progress4.current,
+          container: progressBarRef4.current,
           widthContainer: 150,
           heightContainer: 150,
           colorContainer: "#c0c0c0",
@@ -59,10 +59,10 @@ const App = () => {
       ).run(6000, 2500)
     }
 
-    if (progress5.current) {
+    if (progressBarRef5.current) {
       new CircularTimerProgressBar(
         {
-          container: progress5.current,
+          container: progressBarRef5.current,
           widthContainer: 300,
           heightContainer: 200,
           strokeWidth: 20,
@@ -79,11 +79,11 @@ const App = () => {
 
   return (
     <>
-      <ProgressBar ref={progress1} />
-      <ProgressBar ref={progress2} />
-      <ProgressBar ref={progress3} />
-      <ProgressBar ref={progress4} />
-      <ProgressBar ref={progress5} />
+      <ProgressBar ref={progressBarRef1} />
+      <ProgressBar ref={progressBarRef2} />
+      <ProgressBar ref={progressBarRef3} />
+      <ProgressBar ref={progressBarRef4} />
+      <ProgressBar ref={progressBarRef5} />
     </>
   )
 }
