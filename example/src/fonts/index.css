@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "GothamRounded-Bold";
+  src: url("./GothamRounded-Bold.eot");
+  src:
+    url("./GothamRounded-Bold.eot?#iefix") format("embedded-opentype"),
+    url("./GothamRounded-Bold.woff2") format("woff2"),
+    url("./GothamRounded-Bold.woff") format("woff"),
+    url("./GothamRounded-Bold.ttf") format("truetype"),
+    url("./GothamRounded-Bold.svg#Gotham-Bold") format("svg");
+}
+
+@font-face {
+  font-family: "GothamRounded-Book";
+  src: url("./GothamRounded-Book.eot");
+  src:
+    url("./GothamRounded-Book.eot?#iefix") format("embedded-opentype"),
+    url("./GothamRounded-Book.woff2") format("woff2"),
+    url("./GothamRounded-Book.woff") format("woff"),
+    url("./GothamRounded-Book.ttf") format("truetype"),
+    url("./GothamRounded-Book.svg#Gotham-Medium") format("svg");
+}
+
+@font-face {
+  font-family: "GothamRounded-Light";
+  src: url("./GothamRounded-Light.eot");
+  src:
+    url("./GothamRounded-Light.eot?#iefix") format("embedded-opentype"),
+    url("./GothamRounded-Light.woff2") format("woff2"),
+    url("./GothamRounded-Light.woff") format("woff"),
+    url("./GothamRounded-Light.ttf") format("truetype"),
+    url("./GothamRounded-Light.svg#Gotham-Light") format("svg");
+}
