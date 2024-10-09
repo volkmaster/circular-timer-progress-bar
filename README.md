@@ -36,7 +36,7 @@ const Example = () => {
   const progressBarRef = useRef(null)
 
   useEffect(() => {
-    if (progress.current) {
+    if (progressBarRef.current) {
       new CircularTimerProgressBar(
         {
           container: progressBarRef.current,
@@ -54,9 +54,7 @@ const Example = () => {
     }
   }, [])
 
-  return (
-    <ProgressBar ref={progressBarRef} />
-  )
+  return <svg ref={progressBarRef} />
 }
 
 export default Example

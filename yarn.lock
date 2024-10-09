@@ -3351,11 +3351,6 @@ ci-info@^3.2.0:
   resolved "https://registry.yarnpkg.com/ci-info/-/ci-info-3.9.0.tgz#4279a62028a7b1f262f3473fc9605f5e218c59b4"
   integrity sha512-NIxF55hv4nSqQswkAeiOi1r83xy8JldOFDTWiug55KBu9Jnblncd2U6ViHmYgHf01TPZS77NJBhBMKdWj9HQMQ==
 
-circular-timer-progress-bar@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/circular-timer-progress-bar/-/circular-timer-progress-bar-1.0.1.tgz#bffcae861e86055c46229150722b62b1459d4894"
-  integrity sha512-na9qgz81kdARNZyWgP0h7d9m8j4S1X89vaPvSVoZbm7wxW56AbtQ1uUZrjOftXMqV9+GxDAAOrZHS0SoZ2oqXg==
-
 cjs-module-lexer@^1.0.0:
   version "1.4.1"
   resolved "https://registry.yarnpkg.com/cjs-module-lexer/-/cjs-module-lexer-1.4.1.tgz#707413784dbb3a72aa11c2f2b042a0bef4004170"
